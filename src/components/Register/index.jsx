@@ -8,11 +8,11 @@ const index = () => {
   return (
     <div className='h-100'>
       <Row>
-        <Col style={{padding:'100px 200px', }}>
+        <Col style={{padding:'5%'}}>
             <h1 className='fw-normal'>Wellcome to <span style={{color:'#9466FF'}} className='fw-bold'>myTrainingWebsite</span></h1>
-            <Lottie animationData={hero} loop={true} />
+            <Lottie animationData={hero} loop={true} style={{maxWidth:'500px'}}/>
         </Col>
-        <Col style={{padding:'100px', backgroundColor: '#9466FF'}} className='item-center'>
+        <Col style={{padding:'5%', backgroundColor: '#9466FF'}} className='item-center'>
             <Card className='w-full p-3'>
                 <h1 className='text-center fw-bold'>Regsitrasi Akun</h1>
                 <Form />
